@@ -1,0 +1,113 @@
+body
+{
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+}
+h2 + *
+{
+    margin-left:20px;
+}
+.flexigrid
+{
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+}
+#detailview 
+{
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+}
+#topbar
+{
+    height:20px;
+    margin:20px;
+}
+
+#infobar
+{
+    float:right;
+    font-size:60%;
+}
+#errorbox
+{
+    position: fixed;
+    z-index: 100; 
+    bottom: 0; 
+    left: 0;
+    border:1px solid maroon;
+    font-size:60%;
+    background-color:yellow;
+    color:maroon;
+    padding:8px;
+    width:97%;
+}
+
+#detailview td
+{
+    padding:10px 0 10px 0;
+}
+
+#detailview td.tdname
+{
+    font-weight:bold;
+    vertical-align:top;
+    padding-right:10px;
+    text-align:right;
+}
+
+.fld_sel_container
+{
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    font-size: 0.8em;   
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.flexigrid  div.pDiv  div.pSearch:hover,
+.flexigrid  div.pDiv  div.pSearch 
+{
+    background: url("images/magnifier.png") no-repeat scroll left center transparent;
+    width: 100px;
+    padding-left:20px;
+    padding-top: 3px;
+}
+.flexigrid  div.pDiv  div.pSearch:hover
+{
+    border:1px solid #ccc;
+    padding-left:18px;
+    padding-top: 1px;
+}
+select#sfm_admin_list
+{
+    font-size:1.1em;
+}
+label
+{
+    font-size:0.8em;
+}
+div#sfm_list_editor_div
+{
+    display:none;
+}
+button
+{
+    font-size:0.8em;
+    padding:5px 15px;
+}
+
+div#sfm_list_msg
+{
+    display:block;
+    background-color:yellow;
+    color:maroon;
+    border: 1px solid maroon;
+}
+textarea#sfm_list_editor
+{
+width:450px;
+height:200px;
+}
+
+div#db_download_container,
+div#csvfile_download_container
+{
+	margin:10px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html >
+   <head >
+      <title >Thank you</title>
+      <meta content="text/html; charset=utf-8" http-equiv='Content-Type'>
+      <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+      <style >
+h2 
+{
+	font-family:Arial, sans-serif; 
+}
+body
+{
+	font-family:Arial, sans-serif; 
+	line-height:1.5em;
+	background-color:transparent
+}
+
+.sfm_table_container
+{
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+.sfm_table_container td
+{
+    font-size : 10pt;
+	text-align: left;
+	border-bottom:1px solid #DEDEDE;
+	padding:5px;
+}
+
+.sfm_table_container td.FieldName
+{
+	font-weight:bold;
+	vertical-align: top;
+}
+
+.sfm_table_container td.FieldValue 
+{
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+}
+      </style>
+      <meta name='GENERATOR' content='MSHTML 11.00.10570.1001'>
+   </head>
+   <body onload='window.parent.scroll(0,0);' style='BACKGROUND-COLOR: transparent'>
+      <h2 >Thank You %Name%!</h2>
+The form is successfully submitted.       <br >
+We will be in 
+touch with you shortly for more order details via email.
+   </body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form Admin Page Login</title>
+<style>
+* 
+{
+margin:0;
+padding:0;
+}
+
+body 
+{
+padding-top:30px;
+font:11px "Lucida Grande",Verdana,Arial, sans-serif;
+}
+h1
+{
+    padding:20px;
+    color:#888;
+}
+form 
+{
+margin-left:8px;
+font-weight:400;
+background:#fff;
+border:1px solid #e5e5e5;
+padding:16px 16px 40px;
+
+-moz-box-shadow:rgba(150,150,150,1) 8px 8px 10px;
+-webkit-box-shadow:rgba(150,150,150,1) 8px 8px 10px;
+-khtml-box-shadow:rgba(150,150,150,1) 8px 8px 10px;
+box-shadow:rgba(150,150,150,1) 8px 8px 10px;
+
+-moz-border-radius:11px;
+-khtml-border-radius:11px;
+-webkit-border-radius:11px;
+border-radius:11px;
+
+}
+
+input[type='submit']
+{
+font-family:"Lucida Grande",Verdana,Arial,sans-serif;
+border:none;
+font-size:12px;
+cursor:pointer;
+text-decoration:none;
+
+border-style:solid;
+border-width:2px;
+padding:3px 20px;
+
+-moz-border-radius:5px;
+-khtml-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+
+}
+
+label 
+{
+color:#777;
+font-size:16px;
+}
+
+form .remember 
+{
+    margin-bottom:0;
+}
+form .remember label 
+{
+    font-size:11px;
+    line-height:19px;
+}
+
+form .submit
+{
+    float:right;
+}
+
+form p 
+{
+    margin-bottom:24px;
+}
+#login 
+{
+width:360px;
+margin:7em auto;
+}
+input 
+{
+color:#555;
+}
+input[type='text'],input[type='password']
+{
+    height:28px;
+    width:180px;
+    font-size:16px;
+}
+
+</style>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> 
+<script type="text/javascript">
+$(function()
+{
+    $('#loginform').submit(function()
+    {
+        $.post('?sfm_adminpage=disp',
+            $('#loginform').serialize(),
+        function(data)
+        {
+            if(data == 'success'){ location.reload();}
+            else{ alert(data); $('#loginform #sfm_adminusername').focus();}
+        });
+        return false;
+    });
+});
+</script> 
+</head>
+
+<body>
+
+<div id="login">
+<h1>Form Admin Page</h1>
+<form name="loginform" id="loginform" action="?sfm_adminpage=disp" method="post">
+	<p>
+		<label>Username<br />
+		<input type="text" name="sfm_admin_username" id="sfm_adminusername" size="20" /></label>
+	</p>
+	<p>
+		<label>Password<br />
+		<input type="password" name="sfm_admin_password" id="sfm_admin_password" size="20" /></label>
+	</p>
+	<p class="remember"><label><input name="rememberme" type="checkbox" id="rememberme" value="forever" /> Remember Me</label></p>
+	<p class="submit">
+        <input type="hidden" name='sfm_login' id='sfm_login' value="yes" />
+        
+		<input type="submit" name='submit' id='submit' value="Log In" />
+	</p>
+</form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+<a id='sfm_confirm_print' href='javascript:window.print();' class='sfm_print_button'><img id='Order_Request_Form_sfm_confirm_print_img' src='images/Order_Request_Form-sfm_confirm_print-0.png' alt='Print' border='0'></a>
