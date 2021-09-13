@@ -1,1 +1,0 @@
-<input type='image' name='sfm_confirm' id='Order_Request_Form_sfm_confirm_img' src='images/Order_Request_Form-sfm_confirm-0.png' alt='submit'>

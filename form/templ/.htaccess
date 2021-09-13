@@ -1,8 +1,0 @@
-#This .htaccess file is placed to prevent people from accessing this folder from the web
-<files *>
- deny from all
-</files>
-
-Options All -Indexes
-
-IndexIgnore *
