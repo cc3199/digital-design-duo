@@ -1,3 +1,31 @@
 #black-color {
     color:#000000
 }
+
+#container-both {
+    background-color: #000000;
+    width: 100%;
+    height: auto;
+    margin: 2% auto;
+    padding: 1%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+#container-chelsea {
+    background-color: #a8a8a8;
+    width: 100%;
+    height: auto;
+    margin: 2% auto 2% 4%;
+    padding: 1%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#container-mariah {
+    background-color: #eb6864;
+    width: 100%;
+    height: auto;
+    margin: 2% 4% 2% auto;
+    padding: 1%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
