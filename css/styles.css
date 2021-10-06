@@ -29,3 +29,13 @@
     padding: 1%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+#body-link {
+   color: #bc5350;
+   text-decoration: underline;
+
+}
+
+#body-link:hover {
+    color:#eb6864
+}
