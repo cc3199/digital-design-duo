@@ -41,10 +41,9 @@
 }
 
 #jumbobanner {
-  padding: 8rem 1rem;
-  margin-bottom: 2rem;
+  padding: 11rem 0rem;
   background-image: url("https://github.com/cc3199/digital-design-duo/blob/main/images/jumbotron%20image.png?raw=true");
-  border-radius: 0.3rem;
+  margin: -3rem 0rem;
 }
 
 #jumbobanner h1 {
