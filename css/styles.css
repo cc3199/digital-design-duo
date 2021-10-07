@@ -59,7 +59,7 @@
 
 
 /* **********Medium Devices Only********** */
-@media screen and (min-width: 577px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
     #container-both {
     width: 90%;
     margin: 2% auto;
@@ -91,6 +91,36 @@
 
 /* **********Small Devices Only*********** */
 
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    #container-both {
+    width: 90%;
+    margin: 2% auto;
+    padding: 2%;
+}
+
+#container-chelsea {
+    width: 90%;
+    height: auto;
+    margin: 2% auto;
+}
+
+#container-mariah {
+    width: 90%;
+    height: auto;
+    margin: 2% auto;
+    padding: 2%;
+}
+#profileimage {
+    display: none;
+}
+
+#small-banner {
+    display: block !important;
+    margin: auto;
+}
+}
+
+/* **********X Small Devices Only*********** */
 @media screen and (max-width: 576px) {
     #container-both {
     width: 90%;
