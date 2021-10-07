@@ -52,3 +52,70 @@
    font-size: 4em;
 }
 
+#small-banner {
+    display: none;
+}
+
+
+
+/* **********Medium Devices Only********** */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    #container-both {
+    width: 90%;
+    margin: 2% auto;
+    padding: 2%;
+}
+
+#container-chelsea {
+    width: 90%;
+    height: auto;
+    margin: 2% auto;
+}
+
+#container-mariah {
+    width: 90%;
+    height: auto;
+    margin: 2% auto;
+    padding: 2%;
+}
+   
+    #profileimage {
+    display: none;
+} 
+
+#small-banner {
+    display: block !important;
+    margin: auto;
+}
+}
+
+/* **********Small Devices Only*********** */
+
+@media screen and (max-width: 576px) {
+    #container-both {
+    width: 90%;
+    margin: 2% auto;
+    padding: 2%;
+}
+
+#container-chelsea {
+    width: 90%;
+    height: auto;
+    margin: 2% auto;
+}
+
+#container-mariah {
+    width: 90%;
+    height: auto;
+    margin: 2% auto;
+    padding: 2%;
+}
+#profileimage {
+    display: none;
+}
+
+#small-banner {
+    display: block !important;
+    margin: auto;
+}
+}
