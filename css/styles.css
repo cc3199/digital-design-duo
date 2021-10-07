@@ -40,4 +40,15 @@
     color:#eb6864
 }
 
+#jumbobanner {
+  padding: 8rem 1rem;
+  margin-bottom: 2rem;
+  background-image: url("https://github.com/cc3199/digital-design-duo/blob/main/images/jumbotron%20image.png?raw=true");
+  border-radius: 0.3rem;
+}
+
+#jumbobanner h1 {
+   font-family: "Lucida Handwriting", cursive;
+   font-size: 4em;
+}
 
