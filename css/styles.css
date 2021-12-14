@@ -42,13 +42,14 @@
 
 #jumbobanner {
   padding: 11rem 0rem;
-  background-image: url("https://github.com/cc3199/digital-design-duo/blob/main/images/jumbotron%20image.png?raw=true");
+  background-image: url("https://github.com/cc3199/digital-design-duo/blob/main/images/banners/Web%20Banner.png?raw=true");
   margin: -3rem 0rem;
 }
 
 #jumbobanner h1 {
    font-family: "Lucida Handwriting", cursive;
    font-size: 4em;
+   color: white;
 }
 
 #small-banner {
